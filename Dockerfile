@@ -9,4 +9,5 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libjsoncpp-dev \
     libmemcached-dev \
     libcrypto++-dev \
+    libmysqlclient-dev \
   && apt-get clean
