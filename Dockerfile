@@ -3,7 +3,7 @@ MAINTAINER codeVerySlow <280998677@qq.com>
 
 #ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get update && apt-get install -y \
+RUN yum update && yum install -y \
     libgoogle-glog-dev \
     libfcgi-dev \
     libjsoncpp-dev \
