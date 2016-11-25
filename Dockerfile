@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM ubuntu:latest
 MAINTAINER codeVerySlow <280998677@qq.com>
 
 #ENV DEBIAN_FRONTEND noninteractive
