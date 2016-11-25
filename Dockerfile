@@ -11,4 +11,6 @@ RUN apt-get update -y && apt-get install -y \
     libcrypto++-dev \
     libmysqlclient-dev \
     git \
+    make \
+    g++ \
   && apt-get clean
