@@ -10,4 +10,5 @@ RUN apt-get update -y && apt-get install -y \
     libmemcached-dev \
     libcrypto++-dev \
     libmysqlclient-dev \
+    git \
   && apt-get clean
